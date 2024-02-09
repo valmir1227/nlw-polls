@@ -114,4 +114,12 @@ Add a vote to specific poll.
 
 ![Cover](./.github/db.png)
 
+- **POST /polls:** Creates a new poll and saves it in the PostgreSQL database.
+
+- **GET /polls/:id:** Retrieves data from a poll.
+
+- **POST /polls/:id/votes:** Saves votes in the Redis database.
+
+- **Ws results:** Monitors real-time results of a poll.
+
 <!--END_SECTION:footer-->
